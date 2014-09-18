@@ -62,7 +62,7 @@ public class Calculator extends JFrame {
 
 			for (int i = 0; i < buttons.length; i++) {
 
-				if (obj.equals(buttons[i])) {
+				if (obj.equals(buttons[i])) { //바보
 					if (obj.equals(buttons[0])) { // c버튼 클릭시
 						tf.setText(null);
 
